@@ -1,4 +1,3 @@
-import React from "react";
 import { FoodList, Pagination } from "@/components";
 import { Link, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";

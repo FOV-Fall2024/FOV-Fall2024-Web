@@ -22,7 +22,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Skeleton } from "@/components/ui/skeleton";
-import { MoreHorizontal, Edit, Power, PowerOff } from "lucide-react";
+import { MoreHorizontal, Edit, PowerOff } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,

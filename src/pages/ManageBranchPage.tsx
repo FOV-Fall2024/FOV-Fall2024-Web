@@ -1,5 +1,4 @@
 import { BranchTable, Pagination } from "@/components";
-import React from "react";
 
 function ManageBranchPage() {
   return (

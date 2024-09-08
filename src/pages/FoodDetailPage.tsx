@@ -1,13 +1,6 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -18,7 +11,6 @@ import {
 import { Minus, Plus, ShoppingCart } from "lucide-react";
 
 function FoodDetailPage() {
-  const { foodId } = useParams<{ foodId: string }>();
   const [quantity, setQuantity] = useState(0);
 
   const increaseQuantity = () => setQuantity((prev) => prev + 1);

@@ -1,7 +1,5 @@
-import { Header } from "@/components";
 import banhmi from "../assets/banhmi.jpg";
 import customer from "../assets/customer.jpg";
-import React from "react";
 import { Button } from "@/components/ui/button";
 
 function HomePage() {

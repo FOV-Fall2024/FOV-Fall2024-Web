@@ -1,10 +1,8 @@
-import React from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Plus } from "lucide-react";
 
 function FoodList() {
-  const [searchParams] = useSearchParams();
   return (
     <div className="grid grid-cols-2 gap-8 p-4 md:grid-cols-3 lg:grid-cols-4 lg:px-40">
       <div>

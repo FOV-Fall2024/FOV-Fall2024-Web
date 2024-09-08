@@ -1,12 +1,8 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import {
-  FileText,
   Home,
-  Settings,
   LayoutDashboardIcon,
   UtensilsIcon,
-  BookOpenIcon,
   UsersIcon,
   LeafIcon,
   UserIcon,

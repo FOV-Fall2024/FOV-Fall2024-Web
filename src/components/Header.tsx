@@ -1,27 +1,14 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import MainNavbar from "./MainNavbar";
 import MobileNavbar from "./MobileNavbar";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import SignIn from "./SignIn";
-import SignUp from "./SignUp";
-import ForgotPassword from "./ForgotPassword";
-import { LogOut, ShoppingBasket, User } from "lucide-react";
-import { Button } from "./ui/button";
+import { LogOut, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import Cart from "./Cart";
 

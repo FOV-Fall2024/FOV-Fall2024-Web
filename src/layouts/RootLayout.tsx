@@ -1,6 +1,4 @@
-import React from "react";
 import { Footer, Header } from "@/components";
-import { HomePage } from "@/pages";
 import { Outlet } from "react-router-dom";
 
 function RootLayout() {

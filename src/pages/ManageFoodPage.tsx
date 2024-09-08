@@ -1,5 +1,3 @@
-import React from "react";
-
 function ManageFoodPage() {
   return <div>ManageFoodPage</div>;
 }
